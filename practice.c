@@ -1,13 +1,12 @@
 #include <stdio.h>
+#include <curses.h>
 
-int main (void) {
-  int i,j;
-  printf("Enter first num: ");
-  scanf("%i", &i);
-    printf("Enter second num: ");
-  scanf("%i", &j);
+int main(void)
+{
+    char ch;
+    printf("Enter a character: " );
+    ch = getchar();
+    printf("\n this ancii code is %d", ch);
 
-  printf("i < j %i\n", i < j);
-  printf("i > j %i\n", i > j);
-  return 0;
+    return 0;
 }
