@@ -16,7 +16,8 @@ int main (void) {
       break;
     } 
     else {
-      printf("Your guess was wrong! %i tries left. \n", i);
+      int leftMoves = 9 - i;
+      printf("Your guess was wrong! %i tries left. \n", leftMoves);
     }
   }
 

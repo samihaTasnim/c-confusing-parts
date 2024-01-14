@@ -88,4 +88,14 @@ int displayScore = (int) testScore; // so displayScore will be 95 rounded
 | free() | Use this function to release previously allocated memory.
 
 
+### format specifiers
+
+| Format Specifier | Data Type	 |
+| ----------- | ----------- |
+| %d or %i |	int
+| %f | float
+| %lf |	double
+| %c | Use this function to release previously allocated memory.
+| %s	| Used for strings (text), which you will learn more about in a later chapter
+
 
